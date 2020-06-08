@@ -1,0 +1,44 @@
+ .file {
+  width: 100%;
+  padding: 15px 0 17px 16px;
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+ 
+.file__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+ 
+.file__label {
+  width: 100%;
+  color: #272733;
+  font-family: $fontsLato-semibold;
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+}
+.file-button {
+  &::before {
+    content: "";
+    width: 18px;
+    height: 20px;
+    background-image: url("../img/file.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 0;
+  }
+}

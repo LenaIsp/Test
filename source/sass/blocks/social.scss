@@ -1,0 +1,46 @@
+.social {
+	display: flex;
+}
+
+.social__list {
+	display: flex;
+	@include reset();
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-left: 1px solid $white;
+    border-right: 1px solid $white;
+    padding: 0 44px;
+      @media (max-width: $tablet-width) {
+      	border: 0;
+      }
+}
+.social__item  {
+	padding: 0 20px;
+	position: relative;
+	color: $grey;
+	&:before {
+		content: "";
+		width: 15px;
+		height: 15px;
+		background-image: url("../img/qiwiwallet.png");
+		background-size: 100%;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 2px;
+		left: 0;
+	}
+	&--yandex {
+		&:before {
+			background-image: url("../img/yandexmoney.png");
+		}
+	}
+	&--web {
+		&:before {
+			background-image: url("../img/webmoney.png");
+		}
+	}
+	&:last-child {
+		padding-right: 0
+	}
+}

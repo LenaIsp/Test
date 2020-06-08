@@ -1,0 +1,29 @@
+.button {
+  width: 183px;
+  border-radius: 4px;
+  color:$white;
+  font-family: Lato;
+  font-size: 13px;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  padding: 17px 10px;
+  min-width: 181px;
+  display:inline-block;
+  text-align: center;
+  transition: 0.5s;
+  &--basic {
+    border: 1px solid $grey-border;
+    background-color: $white;
+    color: $black_light;
+  }
+
+  &--blue {
+    border: 1px solid $white;
+    background-color: $blue;
+  }
+  
+  &:hover {
+    opacity: 0.8;
+  }
+}

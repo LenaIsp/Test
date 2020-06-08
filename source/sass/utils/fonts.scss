@@ -1,0 +1,55 @@
+//fonts
+$fontsRaleway: RalewayExtraBold, arial, sans-serif;
+$fontsLato: Lato, arial, sans-serif;
+$fontsLato-bold: LatoBold, arial, sans-serif;
+$fontsLato-semibold: LatoSemibold, arial, sans-serif;
+$fontsLato-regular: LatoRegular, arial, sans-serif;
+$fontsLato-heavy: LatoHeavy, arial, sans-serif;
+
+@font-face {
+  font-family: "RalewayExtraBold";
+  src: url("../fonts/Raleway.woff2") format("woff2"), url("../fonts/Raleway.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoSemibold";
+  src: url("../fonts/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato-Semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "LatoHeavy";
+  src: url("../fonts/Lato-Heavy.woff2") format("woff2"), url("../fonts/Lato-Heavy.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

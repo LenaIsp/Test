@@ -1,0 +1,32 @@
+.navigation {
+  background-color: $header_color;
+  position: relative;
+}
+
+.navigation__wrap {
+  width: 98%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.navigation__toggle {
+  display: none;
+    @media (max-width: $tablet-width) {
+      display: block;
+    }
+}
+
+.navigation__logo {
+  font-family: $fontsRaleway;
+  font-size: 28px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.navigation__color {
+  color: $blue-logo;
+}

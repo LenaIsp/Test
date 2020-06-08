@@ -1,0 +1,34 @@
+.menu {  
+  @media (max-width: $tablet-width) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: $header_color;
+    padding-bottom: 20px;
+  }
+  &--active {  
+    @media (max-width: $tablet-width) {
+      display: block;
+    }
+  }
+}
+.menu__link {
+  font-family: $fontsLato-semibold;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0 30px;
+    &--active {
+      color: $blue-menu;
+    }
+
+    &:hover {
+      color: $blue-menu;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+}

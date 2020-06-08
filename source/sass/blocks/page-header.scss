@@ -1,0 +1,12 @@
+.page-header {
+	position: relative;
+	height: 849px;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	  @media (max-width: $tablet-width) {
+		height: auto;
+	  }
+}

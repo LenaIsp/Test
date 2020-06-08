@@ -1,0 +1,8 @@
+.wrapper {
+  width: 98%;
+  max-width: 1170px;
+  margin: 0 auto;  
+  @media (max-width: $tablet-width) {
+  	width: 95%;
+  }
+}

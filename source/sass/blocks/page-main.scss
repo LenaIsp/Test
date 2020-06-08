@@ -1,0 +1,27 @@
+.page-main {  
+  padding: 100px 0 100px;
+  background-image: url("../img/map.png");
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  
+}
+.page-main__header {
+  font-family: $fontsLato-heavy;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-main__header-color {
+  color: $blue;
+}
+
+.page-main__intro {
+  color: $white2;
+  font-family: $fontsLato;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 83px;
+}

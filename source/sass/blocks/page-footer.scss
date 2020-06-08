@@ -1,0 +1,26 @@
+.page-footer {
+	background-color: $footer_color;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.page-footer__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	  @media (max-width: $tablet-width) {
+	    flex-wrap: wrap;
+	    justify-content: center;
+		height: auto;
+	  }
+}
+
+.page-footer__item {
+      @media (max-width: $tablet-width) {
+      	margin-bottom: 20px;
+      	&:first-child {
+      		margin: 7px 0;
+      	}
+      }
+}

@@ -1,0 +1,39 @@
+.form__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 28px;
+  justify-content: space-between;
+}
+.form__item {
+  width: 32%;
+  margin-bottom: 32px;
+    @media (max-width: $tablet-width) {
+      width: 100%;
+    }
+}
+
+.form__inp {
+  display: block;
+  width: 100%;
+  padding: 15px 0 17px 16px;
+  background: $white;
+  border: 1px solid $white;
+  border-radius: 3px;
+  font-size: 18px;
+  line-height: 22px;
+  color: $black_form;
+  font-family: $fontsLato;
+  &::placeholder {
+    color: $black_form;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+.form__button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 370px;
+}
